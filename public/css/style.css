@@ -1,0 +1,89 @@
+.container {
+    width: 70%;
+    min-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .kanban-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+  
+  .kanban-heading-text {
+    font-size: 1.8rem;
+    background-color: white;
+    padding: 0.8rem 1.7rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    color:tomato;
+    border: 2px solid black;
+  }
+  .w-text{
+    border: 2px solid black;
+    padding: 15px 15px 15px 15px;
+    font-size: 1.8rem;
+    background-color: white;
+    padding: 0.8rem 1.7rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }
+  .kanban-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+  }
+  
+  .kanban-block {
+    padding: 0.6rem;
+    width: 30.5%;
+    min-width: 14rem;
+    min-height: 4.5rem;
+    border-radius: 0.3rem;
+  }
+  
+  #todo {
+    background-color: tomato;
+    border: 2px solid black;
+  }
+  #todo1 {
+    border: 1px solid black;
+    height: 400px;
+  }
+  #todo1 h2 {
+    border: 1px solid black;
+    background: #8367541f;
+    text-align: center;
+  }
+  
+  #inprogress {
+    background-color: tomato;
+    border: 2px solid black;
+  }
+  #inprogress1 {
+    border: 1px solid black;
+    height: 400px;
+  }
+  #inprogress1  h2{
+    border: 1px solid black;
+    background: #8367541f;
+    text-align: center;
+  }
+  
+  #done {
+    background-color: tomato;
+    border: 2px solid black;
+  }
+  #done1 {
+    border: 1px solid black;
+    height: 400px;
+  }
+  #done1 h2 {
+    border: 1px solid black;
+    background: #8367541f;
+    text-align: center;
+  }
