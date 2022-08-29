@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('task');
-            $table->integer('status')->default(0);
+            $table->integer('status')->default(0)->comment('0=todo,1=inprogress,2=done');
             $table->timestamps();
         });
     }
